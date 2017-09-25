@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+.max{
+	margin:0 auto;
+	width:1600px;
+	height:100%;
+	position:relative;
+	left:50%;
+	margin-left:-800px;
+}
+.banner{
+	width:1000px;
+	height:239px;
+	margin:0 auto;
+}
+.content{
+		height:100%;
+
+	width:1000px;
+	margin:0 auto;
+	background:#FFF;
+	margin-bottom:17px;
+	padding-bottom:20px;
+}
+.content_left{
+	width:187px;
+	height:100%;
+	float:left;
+	border:1px #cccccc solid;
+	margin-right:11px;
+}
+.left_biaoti{
+	color:#51504e;
+	font-size:16px;
+	width:181px;
+	height:27px;
+	padding:3px;
+	line-height:25px;
+	text-align:center;
+	background:url(../Template/Default/Skin/wy/image/left_biaoti.jpg) repeat-x;
+	border-bottom:2px #fc9500 solid;
+}
+.content_left ul{
+	height:100%;
+}
+.content_left ul li{
+	width:187px;
+	height:33px;
+	text-align:center;
+	line-height:33px;
+
+}
+.content_left ul li a{
+	width:183px;
+	display:block;
+	font-size:12px;
+	height:33px;
+	color:#898989;
+	text-align:left;
+	margin:2px;
+	background:url(../Template/Default/Skin/wy/image/left_tiyanguang_01bg.jpg) right no-repeat;  
+}
+.left_nav img{
+	float:left;
+	margin-right:12px;
+}
+.content_left ul li a:hover{
+	text-decoration:none;
+	background:url(../Template/Default/Skin/wy/image/left_tiyanguang_hover.jpg) right no-repeat;
+}
+.content_left ul li a.active {
+	background-image: url(../Template/Default/Skin/wy/image/left_nav_02bg.jpg);
+	color: #FFF;
+}
+.content_left ul li a span {
+	display: inline-block;
+	width: 138px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.content_left ul li a.active span{
+	width: 109px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.visited{
+	background:none;
+}
+.content_right{
+	width:785px;
+	height:100%;
+	float:left;
+	
+
+
+
+
+}
+
+.select{
+	width:776px;
+	height:326px;
+	background:#efefef;
+	border:1px #cccccc solid;
+	padding:2px;
+	margin-top:5px;
+	
+}
+.yanse{
+	width:326px;
+	height:136px;
+	float:left;
+	padding:15px 0 0 10px;
+
+}
+.biaoti1{
+	color:#535353;
+	font-size:16px;
+
+}
+.biaoti2{
+	color:#535353;
+	font-size:16px;
+	margin-left:3px;
+
+}
+.select_color{
+	height:90px;
+	width:325px;
+	margin-top:10px;
+
+}
+.select_color ul li{
+	float:left;
+	margin-right:0;
+
+}
+.middle{
+	height:151px;
+	float:left;
+	width:20px;
+	background:url(../Template/Default/Skin/wy/image/middle_bg.jpg) center no-repeat;
+
+}
+
+
+
+.changjing{
+	width:406px;
+	height:136px;
+	float:left;
+	padding:15px 0 0 0;
+
+}
+.select_changjing ul li{
+	float:left;
+	margin-right:0;
+	width: 96px;
+	height: 80px;
+}
+/*场景*/
+.scene1 {
+	background: url(../Template/Default/Skin/wy/image/bedroom_01.png) no-repeat;
+}
+.scene1.active {
+	background: url(../Template/Default/Skin/wy/image/bedroom_02.png) no-repeat;
+}
+.scene2 {
+	background: url(../Template/Default/Skin/wy/image/kitchen_01.png) no-repeat;
+}
+.scene2.active {
+	background: url(../Template/Default/Skin/wy/image/kitchen_02.png) no-repeat;
+}
+.scene3 {
+	background: url(../Template/Default/Skin/wy/image/outdoors_01.png) no-repeat;
+}
+.scene3.active {
+	background: url(../Template/Default/Skin/wy/image/outdoors_02.png) no-repeat;
+}
+.scene4 {
+	background: url(../Template/Default/Skin/wy/image/parlour_01.png) no-repeat;
+}
+.scene4.active {
+	background: url(../Template/Default/Skin/wy/image/parlour_02.png) no-repeat;
+}
+.select_changjing{
+
+	height:90px;
+	width:405px;
+	margin-top:10px;
+
+}
+.color_name li{
+	color:#535353;
+	font-size:16px;
+	width:77px;
+	*width:80px;
+	text-align:center;
+
+}
+.changjing_name li{
+	color:#535353;
+	font-size:16px;
+	width:96px;
+	text-align:center;
+}
+.jiegou{
+	width:780px;
+	height:133px;
+	padding-top:30px;
+	background:url(../Template/Default/Skin/wy/image/chanpin_tiyan03.png) top no-repeat;
+}
+.jiegou ul li{
+	float:left;
+	width:96px;
+	height:96px;
+	line-height:96px;
+	margin-right:10px;
+}
+.page{
+	height:37px;
+	width:785px;
+	text-align:right;
+	margin-top:5px;
+}
+.page ul li{
+	float:right;
+	line-height:15px;
+	text-align:center;
+	width:20px;
+	margin-right:3px;
+	background:#eeeeee;
+	border:1px #b7b7b7 solid;
+	height:15px;
+	
+}
+
+.page ul li a{
+	color:#606060;
+	width:20px;
+	height:15px;
+	display:block;
+}
+.page ul li a:hover{
+	color:#FFF;
+	background:#fc9500;
+	text-decoration:none;
+}
