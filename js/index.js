@@ -4,6 +4,6 @@ $(function () {
 	$('.nav li').click(function () {
 		var index = $(this).index();
 		var newHref = href + '/' + navArr[index];
-		window.open(newHref);
+		window.location.href = newHref;
 	});
 });

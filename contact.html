@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta content="铝材,西藏伟业门窗,伟业铝材,伟业牌铝材,十大铝型材品牌企业,铝型材厂家,铝合金型材,铝型材十大品牌,铝型材哪家好，节能环保铝型材" name="Keywords">
+    <meta content="伟业铝材，工业铝型材，建筑铝型材，通用铝合金型材." name="Description">
 		<title>西藏伟业门窗</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<style>
@@ -14,8 +16,8 @@
 			.nav>li.active{
 				background: #ccc; color: #fff;
 			}
-			.bd{ position: relative;}
-			.summary-box{ position: absolute; top: 0; left: 0; width: 100%;}
+			.bd{ position: relative; overflow:hidden;}
+			.summary-box{ position: absolute; top: 0; left: 0; width: 100%; }
 			.summary {padding:100px 200px 50px 200px; width: 800px; margin: 0 auto; color: #fff; font-size: 20px;}
 			.summary p{padding-bottom: 40px;}
 			.summary img{ width: 25px; background: #fff;}
@@ -54,4 +56,9 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		var winH = $(window).height();
+		var h = winH - 90;
+		$('.bd').css('height', h+'px');
+	</script>
 </html>

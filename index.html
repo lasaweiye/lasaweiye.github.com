@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta content="铝材,西藏伟业门窗,伟业铝材,伟业牌铝材,十大铝型材品牌企业,铝型材厂家,铝合金型材,铝型材十大品牌,铝型材哪家好，节能环保铝型材" name="Keywords">
+    <meta content="伟业铝材，工业铝型材，建筑铝型材，通用铝合金型材." name="Description">
 		<title>西藏伟业门窗</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<style>
@@ -14,6 +16,8 @@
 			.nav>li.active{
 				background: #ccc; color: #fff;
 			}
+			.bd{overflow:hidden; background:url(image/banner2.png) no-repeat center center;  background-size: cover;}
+			.bd img{ width:100%;}
 		</style>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/index.js"></script>
@@ -34,9 +38,13 @@
 				</ul>
 			</div>
 			<div class="bd">
-				<img src="image/banner2.png" alt="" />
+				<!--<img src="image/banner2.png" alt="" />-->
 			</div>
 		</div>
 	</body>
-	
+	<script>
+		var winH = $(window).height();
+		var h = winH - 90;
+		$('.bd').css('height', h+'px');
+	</script>
 </html>
