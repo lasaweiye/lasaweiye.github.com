@@ -1,5 +1,5 @@
-var navArr = ['','summary.html','tiyanguan.html','aluminum.html','contact.html'];
-var href = 'http://lasaweiye.coding.me';
+var navArr = ['','summary.html','tiyanguan.html','aluminum.html','plan.html','contact.html'];
+var href = 'http://lasaweiye.github.io';
 $(function () {
 	$('.nav li').click(function () {
 		var index = $(this).index();
